@@ -4,7 +4,7 @@
       <template v-if="!loader">
         <Cards v-for="i in 10" :key="i"/>
       </template>
-      <template v-if="fetchSites">
+      <template v-else>
         yuklanmoqda...
       </template>
     </div>
@@ -28,12 +28,16 @@ export default {
   },
   methods:{
     async fetchSites(){
+      this.loader = true
+      await this.timeout(5000)
       this.loader = false
-      // setTimeout(function () {
-      //   this.loader = false
-      //   console.log("stop")
-      // }, 5000)
-
+    },
+    timeout(ms) {
+      return new Promise((res) => {
+        setTimeout(() => {
+          res()
+        }, ms)
+      })
     }
   }
 }

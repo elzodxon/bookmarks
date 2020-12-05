@@ -1,9 +1,6 @@
 <template>
   <div>
     <ul>
-<!--      <li>-->
-<!--        <router-link to="/">00. All</router-link>-->
-<!--      </li>-->
       <li>
         <router-link to="/">All</router-link>
       </li>
@@ -27,6 +24,7 @@
   ul {
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
   }
   ul li{
     list-style: none;

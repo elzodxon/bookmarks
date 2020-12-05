@@ -1,6 +1,7 @@
 <template>
-  <div>
-    Header <br/>
+  <div >
+    <Top/>
+    <hr style="background-color: #C1C1C1">
     <Navbar/>
 
 
@@ -9,9 +10,12 @@
 
 <script>
   import Navbar from '@/components/category/Navbar'
-
+  import Top from '@/components/header/Top'
   export default {
-    components: {Navbar}
+    components: {
+      Navbar,
+      Top
+    }
   }
 </script>
 
