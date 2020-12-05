@@ -1,37 +1,23 @@
 <template>
-      <div class="card-item">
-        <h2>Hello world</h2>
-        <a href="">Nimadir.com</a>
-      </div>
+  <div class='wrapper'>
+    <div class="card">
+      <a href="">Savedbookmarks.uz</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, illum.</p>
+    </div>
+
+  </div>
 </template>
 
 <script>
-
-export default {
-
-  // data: () => {
-  //   let info = [
-  //           {
-  //             id: 1,
-  //             title: 'Site uchun website',
-  //             url: "https://wordpress.org",
-  //             image: 'https://picsum.photos/400/400',
-  //             about: 'bu sayt juda ham ajoyib sayt'
-  //           },
-  //           {
-  //             id: 2,
-  //             title: 'Site uchun website',
-  //             url: 'https://wordpress.org',
-  //             image: 'https://picsum.photos/400/400',
-  //             about: 'bu sayt juda ham ajoyib sayt'
-  //           }
-  //
-  //       ]
-  // }
-}
 
 </script>
 
 <style>
 
+  .card{
+    padding: 20px;
+    border: 1px solid #C1C1C1;
+    background-color: #C1C1C1;
+    margin-right: 20px;
+  }
 </style>

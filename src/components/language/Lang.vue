@@ -1,13 +1,13 @@
 <template>
   <ul>
     <li>
-        <router-link to="/ru">ru</router-link>
+        <router-link class="router-lang" to="/ru">ru</router-link>
     </li>
     <li>
-      <router-link to="/">eng</router-link>
+      <router-link class="router-lang" to="/" style="color: black">eng</router-link>
     </li>
     <li>
-      <router-link to="/uz">uz</router-link>
+      <router-link class="router-lang" to="/uz">uz</router-link>
     </li>
   </ul>
 </template>
@@ -19,5 +19,9 @@
 <style scoped>
   ul li{
     margin-top: 6px;
+  }
+
+  .router-lang{
+    color: #C1C1C1;
   }
 </style>
