@@ -13,7 +13,6 @@
 </script>
 
 <style>
-
   .card{
     padding: 20px;
     border: 1px solid #C1C1C1;

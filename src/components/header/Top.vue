@@ -9,6 +9,9 @@
           <li>
             <p>-  these are hand-made bookmarks for various services, sites, references, and more for the designer</p>
           </li>
+          <li>
+            <router-link to="/about">About</router-link>
+          </li>
         </ul>
       </li>
 
