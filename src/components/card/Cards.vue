@@ -10,13 +10,16 @@
 
 <script>
 
+export default {
+
+}
+
 </script>
 
 <style>
-  .card{
-    padding: 20px;
-    border: 1px solid #C1C1C1;
-    background-color: #C1C1C1;
-    margin-right: 20px;
+  .wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
   }
 </style>
